@@ -54,7 +54,7 @@
     "webpack": "^3.8.1"
   },
   "scripts": {
-    "build": "yarn clean && yarn build:babel && yarn build:webpack && yarn build:copy-flow-source && yarn build:copy-ts-defs",
+    "build": "yarn clean && yarn build:babel && yarn build:copy-flow-source && yarn build:copy-ts-defs",
     "build:babel": "babel src/ --out-dir dist",
     "build:copy-flow-source": "flow-copy-source --verbose src dist",
     "build:copy-ts-defs": "copyfiles index.d.ts dist",
