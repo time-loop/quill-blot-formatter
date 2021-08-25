@@ -1,9 +1,9 @@
 // @flow
 
-import Action from './Action';
-import BlotFormatter from '../BlotFormatter';
+import {Action} from './Action';
+import {BlotFormatter} from '../BlotFormatter';
 
-export default class ResizeAction extends Action {
+export class ResizeAction extends Action {
   topLeftHandle: HTMLElement;
   topRightHandle: HTMLElement;
   bottomRightHandle: HTMLElement;

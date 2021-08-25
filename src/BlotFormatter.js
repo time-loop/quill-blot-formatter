@@ -8,7 +8,7 @@ import BlotSpec from './specs/BlotSpec';
 
 const dontMerge = (destination: Array<any>, source: Array<any>) => source;
 
-export default class BlotFormatter {
+export class BlotFormatter {
   quill: any;
   options: Options;
   currentSpec: ?BlotSpec;

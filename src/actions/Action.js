@@ -1,8 +1,8 @@
 // @flow
 
-import BlotFormatter from '../BlotFormatter';
+import {BlotFormatter} from '../BlotFormatter';
 
-export default class Action {
+export class Action {
   formatter: BlotFormatter;
 
   constructor(formatter: BlotFormatter) {

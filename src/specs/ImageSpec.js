@@ -1,9 +1,9 @@
 // @flow
 
-import BlotSpec from './BlotSpec';
-import BlotFormatter from '../BlotFormatter';
+import {BlotSpec} from './BlotSpec';
+import {BlotFormatter} from '../BlotFormatter';
 
-export default class ImageSpec extends BlotSpec {
+export class ImageSpec extends BlotSpec {
   img: ?HTMLElement;
 
   constructor(formatter: BlotFormatter) {

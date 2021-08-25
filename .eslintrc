@@ -17,6 +17,7 @@
       "error",
       "ForInStatement"
     ],
-    "prefer-destructuring": 0
+    "prefer-destructuring": 0,
+    "import/prefer-default-import": 0
   }
 }

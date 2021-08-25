@@ -1,13 +1,13 @@
 // @flow
 
-import Action from '../Action';
-import BlotFormatter from '../../BlotFormatter';
+import {Action} from '../Action';
+import {BlotFormatter} from '../../BlotFormatter';
 import DefaultAligner from './DefaultAligner';
 import { Aligner } from './Aligner';
 import { Toolbar } from './Toolbar';
 import DefaultToolbar from './DefaultToolbar';
 
-export default class AlignAction extends Action {
+export class AlignAction extends Action {
   toolbar: Toolbar;
   aligner: Aligner;
 

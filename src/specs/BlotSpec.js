@@ -1,12 +1,12 @@
 // @flow
 
-import BlotFormatter from '../BlotFormatter';
-import Action from '../actions/Action';
-import AlignAction from '../actions/align/AlignAction';
-import ResizeAction from '../actions/ResizeAction';
-import DeleteAction from '../actions/DeleteAction';
+import {BlotFormatter} from '../BlotFormatter';
+import {Action} from '../actions/Action';
+import {AlignAction} from '../actions/align/AlignAction';
+import {ResizeAction} from '../actions/ResizeAction';
+import {DeleteAction} from '../actions/DeleteAction';
 
-export default class BlotSpec {
+export class BlotSpec {
   formatter: BlotFormatter;
 
   constructor(formatter: BlotFormatter) {

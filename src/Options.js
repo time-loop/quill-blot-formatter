@@ -1,8 +1,8 @@
 // @flow
 
-import BlotSpec from './specs/BlotSpec';
-import ImageSpec from './specs/ImageSpec';
-import IframeVideoSpec from './specs/IframeVideoSpec';
+import {BlotSpec} from './specs/BlotSpec';
+import {ImageSpec} from './specs/ImageSpec';
+import {IframeVideoSpec} from './specs/IframeVideoSpec';
 
 export type OverlayOptions = {
   // classname applied to the overlay element
@@ -60,7 +60,7 @@ export type Options = {
   resize: ResizeOptions,
 };
 
-const DefaultOptions: Options = {
+export const DefaultOptions: Options = {
   specs: [
     ImageSpec,
     IframeVideoSpec,
@@ -151,5 +151,3 @@ const DefaultOptions: Options = {
     },
   },
 };
-
-export default DefaultOptions;

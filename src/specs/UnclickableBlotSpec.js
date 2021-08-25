@@ -1,12 +1,12 @@
 // @flow
 
-import BlotSpec from './BlotSpec';
-import BlotFormatter from '../BlotFormatter';
+import {BlotSpec} from './BlotSpec';
+import {BlotFormatter} from '../BlotFormatter';
 
 const MOUSE_ENTER_ATTRIBUTE = 'data-blot-formatter-unclickable-bound';
 const PROXY_IMAGE_CLASS = 'blot-formatter__proxy-image';
 
-export default class UnclickableBlotSpec extends BlotSpec {
+export class UnclickableBlotSpec extends BlotSpec {
   selector: string;
   unclickable: ?HTMLElement;
   nextUnclickable: ?HTMLElement;

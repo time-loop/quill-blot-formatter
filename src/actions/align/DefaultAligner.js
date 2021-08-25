@@ -8,7 +8,7 @@ const LEFT_ALIGN = 'left';
 const CENTER_ALIGN = 'center';
 const RIGHT_ALIGN = 'right';
 
-export default class DefaultAligner implements Aligner {
+export class DefaultAligner implements Aligner {
   alignments: { [string]: Alignment };
   alignAttribute: string;
   applyStyle: boolean;
